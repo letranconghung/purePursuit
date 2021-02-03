@@ -27,12 +27,12 @@ def draw(i):
   plt.xlabel('x')
   plt.ylabel('y')
   # plt.show()
-  fig.savefig("imgs/{}.png".format(title))
+  fig.savefig("../imgs/{}.png".format(title))
   i += (1 + smo + wps)
   return i
 
 
-f = open("plot.txt", "r")
+f = open("../txt/path.txt", "r")
 lines = f.readlines()
 i= 0
 print(len(lines))
